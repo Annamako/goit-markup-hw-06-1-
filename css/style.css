@@ -55,6 +55,8 @@ textarea {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    margin: 0 auto;
 }
 
 .button:hover,
@@ -476,9 +478,9 @@ header {
     margin-top: 20px;
 }
 
-.container-address{
+/* .container-address{
     width: 231px;
-}
+} */
 
 .footer-list:not( :last-child) {
     margin-bottom: 9px;
@@ -745,6 +747,7 @@ header {
 /* Forms */
 
 .button-submit {
+    position: relative;
     background: var(--accent-color);
     color: var(--background-color);
     cursor: pointer;
@@ -786,6 +789,7 @@ textarea:focus-visible {
 }
 
 .send-icon {
+    position: absolute;
     margin-left: 10px;
 }
 
@@ -816,6 +820,8 @@ textarea:focus-visible {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus-visible > input,
@@ -895,3 +901,4 @@ textarea:focus-visible {
 .checkbox:checked + .checkbox-icon {
     background-color: var(--accent-color);
 }
+
