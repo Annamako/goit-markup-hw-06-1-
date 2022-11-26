@@ -38,28 +38,28 @@
         <ul class="features-list list">
             <li class="features-description">
                 <div class="feature-item">
-                <svg class="feature-icon" width="70px"; height="70px"><use href="./images/icons.svg#antenna"></use></svg>
+                <svg class="feature-icon" width="70px" height="70px"><use href="./images/icons.svg#antenna"></use></svg>
             </div>
                 <h3 class="features-title">Увага до деталей</h3>
                 <p class="title-after">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li class="features-description">
                 <div class="feature-item">
-                <svg class="feature-icon" width="70px"; height="70px"><use href="./images/icons.svg#clock"></use></svg>
+                <svg class="feature-icon" width="70px" height="70px"><use href="./images/icons.svg#clock"></use></svg>
             </div>
                 <h3 class="features-title">Пунктуальність</h3>
                 <p class="title-after">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li class="features-description">
                 <div class="feature-item">
-                <svg class="feature-icon" width="70px"; height="70px"><use href="./images/icons.svg#diagram"></use></svg>
+                <svg class="feature-icon" width="70px" height="70px"><use href="./images/icons.svg#diagram"></use></svg>
                 </div>
                 <h3 class="features-title">Планування</h3>
                 <p class="title-after">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="features-description">
                 <div class="feature-item">
-                <svg class="feature-icon" width="70px"; height="70px"><use href="./images/icons.svg#astronaut"></use></svg>
+                <svg class="feature-icon" width="70px" height="70px"><use href="./images/icons.svg#astronaut"></use></svg>
             </div> 
                 <h3 class="features-title">Сучасні технології</h3>
                 <p class="title-after">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
@@ -195,37 +195,34 @@
     <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
     <form class="form">
         <div class="form-field">
-            <label for="">Ім'я</label>
+            <label>Ім'я</label>
             <input name="name" type="text">
             <svg class="form-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#person"></use>
             </svg>
         </div>
         <div class="form-field">
-            <label for="">Телефон</label>
+            <label>Телефон</label>
             <input name="tel" type="tel">
             <svg class="form-icon" width="18px" height="18px"><use href="./images/icons.svg#phone"></use>
             </svg>
         </div>
         <div class="form-field">
-            <label for="">Пошта</label>
+            <label>Пошта</label>
             <input name="email" type="email">
             <svg class="form-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#email"></use>
             </svg>
         </div>
-        <div class="form-field">
-            <label for="">Коментар</label>
-            <textarea name="" cols="30" rows="10" placeholder="Введіть текст"></textarea>
+        <div class="form-field comment">
+            <label>Коментар</label>
+            <textarea name="comment" cols="30" rows="10" placeholder="Введіть текст"></textarea>
         </div>
-        <div class="form-checkbox">
-        <input class="checkbox" type="checkbox" name="agrement">
-        <svg class="checkbox-icon" width="13px" height="13px">
-            <use href="./images/icons.svg#check"></use>
-        </svg>
-        <input class="check__input" type="checkbox">
-        <label class="agrement" for="">Погоджуюся з розсилкою та приймаю <a class="agrement-link" href="">Умови договору</a></label> 
-    </div>
+        <label class="agrement">
+            <input class="check_input" type="checkbox" />
+            <span class="check_box"></span>
+         Погоджуюся з розсилкою та приймаю <a class="agrement-link" href="">Умови договору</a>
+        </label> 
         <button class="button" type="submit">Відправити</button>
     </form>
 </div>
